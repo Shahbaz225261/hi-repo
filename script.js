@@ -58,7 +58,6 @@ function loadTasks() {
             event.stopPropagation();
             this.parentElement.remove();
             saveTasks();
-        };
 
         li.appendChild(deleteBtn);
         document.getElementById("taskList").appendChild(li);
